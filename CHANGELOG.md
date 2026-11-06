@@ -60,6 +60,10 @@ auto-generated notes on
   Kubernetes YAML, CUE) also gives `notice`.
 - A `query` that matches nothing when no graph is built or cached now reports
   an explicit `completeness.health.status: ok` instead of omitting `health`.
+- The agent guide that `setup` writes when Brain is enabled now says what a
+  `remember --path` segment may contain: lowercase letters, digits and
+  underscores, no hyphens. It is the rule Brain's own guide states
+  (entireio/entire-brain#605).
 
 ### Fixed
 
